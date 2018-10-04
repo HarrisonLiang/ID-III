@@ -1,0 +1,11 @@
+{
+  "name": "project_SmartGrow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HarrisonLiang/ID-III.git",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}

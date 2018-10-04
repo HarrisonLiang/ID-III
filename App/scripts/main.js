@@ -1,0 +1,1 @@
+function showMiles(){alert("You have used 12.5 gallons of fuel")}
