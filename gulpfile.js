@@ -22,6 +22,10 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('App/styles'))
 });
 
+gulp.task('sass:watch', function () {
+  gulp.watch('Source/scss/main.scss', ['sass']);
+});
+
 // Default Runs Everything
 gulp.task('default', ['scripts', 'styles', 'sass']);
 
