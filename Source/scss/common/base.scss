@@ -1,12 +1,45 @@
 body {
-    margin:0;
-    padding:0;
-    background-color:red;
     font-family:$primary-font;
-    color:$primary-color;
 }
 
-%secondary-header {
+/*%secondary-header {
     font-size:20px;
-    color:$header-color;
+}*/
+.tagline{
+    color: cornflowerblue;
 }
+
+.img-container img{
+    width: 750px;
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
+
+.carousel-indicators li {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.tagline{
+    font-weight: 700;
+}
+
+ul{
+    list-style-image: url(../images/bullet.png);
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+/*
+.carousel-control-prev, .carousel-control-next {
+
+    color: red;
+}*/
+
