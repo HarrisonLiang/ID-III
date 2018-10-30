@@ -41,7 +41,26 @@
 .slide-container{
     align-items: center;
     width: 100%;
-    padding: 80px 7% 80px 9%;
+    padding: 100px 7% 100px 9%;
+    &--first{
+        align-items: center;
+        width: 100%;
+        padding: 100px 7% 100px 15%;
+    }
+    &--finaltitle{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0 100px 0;
+    }
+    &--benefits{
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0 100px 0;
+    }
 }
 
 .article{
@@ -57,14 +76,50 @@
             font-weight: 700;
             margin-bottom: 0px;
         }
+        &--smallbox{
+            font-family: 'Oxygen-Bold', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 0px;
+            padding-right: 40px;
+        }
+        &--largebox{
+            font-family: 'Oxygen-Bold', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 0px;
+            padding-right: 10px;
+        }        
+        &--finaltitle{
+            font-family: 'Oxygen-Bold', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;             
+            text-align: center;
+        }
     }
     &__text{
         margin-bottom: 40px;
+        &--smallbox{
+            margin-top: 10px;
+            margin-bottom: 20px; 
+            padding-right: 50px;
+        }
+        &--largebox{
+            margin-top: 10px;
+            margin-bottom: 20px; 
+            padding-right: 50px;            
+        }
     }
 }
 
-.img-container img{
+
+
+.img-container{
     width: 750px;
+    &--bigfooter img{
+        width: 100%;
+    }    
 }
 
 .red-btn {
@@ -87,7 +142,36 @@
     border-color: #cc4d1f;
 }
 
+.blue-btn {
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    display: inline-block;
+    font-size: 16px; 
+    font-weight: 900;
+    padding: 7px 16px;
+    border-radius: 5px;  
+    background-color: #4CB2D4;
+    -webkit-transition: background-color .5s, border-color .5s;
+    transition: background-color .5s, border-color .5s;
+}
+    
+.blue-btn:hover, .blue-btn:focus, .blue-btn:active {
+    text-decoration: none;
+    color: #fff;
+    background-color: #4C99D4;
+}
 
+
+
+.benefit-article{
+    max-width: 300px;
+    min-width: 200px;
+    padding: 25px;
+    margin: 25px 0;
+    &__text{
+        
+    }
+}
 /*
 .article{
     display:inline-block;

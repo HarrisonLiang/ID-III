@@ -26,40 +26,40 @@
     </section>-->
     <section class="topnav">
         <div class="header">
-            <span class="header__title">SmartGrow</span>
+            <span class="header__title"><a href="#0">SmartGrow</a></span>
             <ul class="menu__nav">
-                <li class="menu__items">Problem</li>
-                <li class="menu__items">Solution</li>
-                <li class="menu__items">Features</li>
-                <li class="menu__items">Benefits</li>
+                <li class="menu__items navigation__link"><a href="#1">Problem</a></li>
+                <li class="menu__items navigation__link"><a href="#2">Solution</a></li>
+                <li class="menu__items navigation__link"><a href="#3">Features</a></li>
+                <li class="menu__items navigation__link"><a href="#4">Benefits</a></li>
             </ul>
         </div>
     </section>
-
     
-    <section class="slide-container row">
-        <div class="article col-sm-6 col-md-6 col-lg-6">
-            <div class="article__title">Master the knowledge of growing plants</div>
-            <div class="article__text">Learn to grow plants with app-guided instructions all the way from seed to maturity</div>
+    <section class="slide-container--first row">
+        <div class="article col-sm-6 col-md-6 col-lg-6 page-section">
+            <div class="article__title--smallbox">Master the knowledge of growing plants</div>
+            <div class="article__text--smallbox">Learn to grow plants with app-guided instructions all the way from seed to maturity</div>
             <a href="" class="red-btn" onclick="ga('send', 'event', 'index', 'clicked CTA', 'clicked front page hero image CTA', 0);">Start Learning</a>
+            <a href="" class="blue-btn" onclick="ga('send', 'event', 'index', 'clicked CTA', 'clicked front page hero image CTA', 0);">Read More</a>
         </div>
         <div class="img-container col-sm-6 col-md-6 col-lg-6">
+            <img src="images/headerpic.png"></img>
+        </div>
+    </section>
+    
+    <section id="#1" class="slide-container row">
+        <div class="img-container col-sm-6 col-md-6 col-lg-6 page-section">
             <img src="images/wilt_plant.jpg"></img>
+        </div>     
+        <div class="article col-sm-6 col-md-6 col-lg-6">
+            <div class="article__title--largebox">No experience, no problem</div>    
+            <div class="article__text--largebox">As the population in cities grows, people have less opportunity to learn how to grow plants. Existing tools are transactional, they focus on soil fertility or moisture levels at a point in time. They all lack a larger context of how to care for plants from seed to maturity. Having more people learn how to care for plants will lead to a greener tomorrow.</div>
         </div>
     </section>
     
     <section class="slide-container row">
-        <div class="img-container col-sm-6 col-md-6 col-lg-6">
-            <img src="images/wilt_plant.jpg"></img>
-        </div>        
-        <div class="article col-sm-6 col-md-6 col-lg-6">
-            <div class="article__title">No experience, no problem</div>    
-            <div class="article__text">As the population in cities grows, people have less opportunity to learn how to grow plants. Existing tools are transactional, they focus on soil fertility or moisture levels at a point in time. They all lack a larger context of how to care for plants from seed to maturity. Having more people learn how to care for plants will lead to a greener tomorrow.</div>
-        </div>
-    </section>
-    
-    <section class="slide-container row">
-        <div class="article col-sm-6 col-md-6 col-lg-6">
+        <div class="article col-sm-6 col-md-6 col-lg-6 page-section">
             <div class="article__title">How SmartGrow can help</div>
             <div class="article__text">
                 SmartGrow connects your phone with your plants, allowing you to see live readings from its sensors. The app will cater instructions on how to care for and raise your plant based on direct readings and it will also help you plan for your plant’s future needs.
@@ -70,8 +70,8 @@
                 <li>Learn to raise a variety of over 5,000 plants!</li>
             </ul>
         </div>
-        <div class="img-container col-sm-6 col-md-6 col-lg-6">
-            <img src="images/wilt_plant.jpg"></img>
+        <div class="img-container col-sm-6 col-md-6 col-lg-6 page-section">
+            <img src="images/2flowers.jpg"></img>
         </div>   
     </section>
     
@@ -124,19 +124,30 @@
             </ul>
         </div>
     </section>
-    
-    
-    <div class="article__title--finaltitle">Become a Plant Master</div>
-    <section class="slide-container row">
+    <section class="bg">
+    <section class="slide-container--finaltitle row">
+        <div class="article__title--finaltitle">Become a Plant Master</div>
+    </section>
+    <section class="slide-container--benefits row">
         <!--<ul>
             <li>Know what it takes to sustain plant health throughout its life</li>
             <li>Understand plant nutrients and soil fertility</li>
             <li>Revel in the smell of new flowers or fresh CO2</li>
         </ul>-->
-        <div class="benefit-article__text col-sm-6 col-md-6 col-lg-4">Know what it takes to sustain plant health throughout its life</div>
-        <div class="col-sm-6 col-md-6 col-lg-4">Understand plant nutrients and soil fertility</div>
-        <div class="col-sm-6 col-md-6 col-lg-4">Revel in the smell of new flowers or fresh CO2</div>
+        <div class="benefit-article col-sm-6 col-md-4 col-lg-4">
+            <div>Know what it takes to sustain plant health throughout its life</div>
+        </div>
+        <div class="benefit-article col-sm-6 col-md-4 col-lg-4">
+            <div class="benefit-article__text">
+                Understand plant nutrients and soil fertility
+            </div>
+        </div>
+        <div class="benefit-article col-sm-6 col-md-4 col-lg-4">
+            <div>
+                Revel in the smell of new flowers or fresh CO2
+            </div>
+        </div>
     </section>
-
+    </section>
 </body>
 </html>
