@@ -53,6 +53,16 @@ function scrollNav() {
 scrollNav();
 */
 
+function showMiles(){
+    
+var totalGallons=200; //total Gallons
+var milesPerGallon=16; //miles per Gallon
+//var gallonsUsed; //gallons Used
+
+    alert ("You have used " + totalGallons/milesPerGallon + " gallons of fuel");
+}
+
+/*
 $(document).ready(function() {
 		$('a[href*=#]').bind('click', function(e) {
 				e.preventDefault(); // prevent hard jump, the default behavior
@@ -87,4 +97,4 @@ $(window).scroll(function() {
 						$('.navigation a').eq(i).addClass('active');
 				}
 		});
-}).scroll();
+}).scroll();*/

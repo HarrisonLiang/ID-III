@@ -16,10 +16,12 @@
 .header{
     height: 70px;
     width: 100%;
+    padding: 25px;
     &__title{
         font-family: 'Rubik-Medium', sans-serif;
         font-size: 48px;
         margin-left: 25px;
+
     }
     
 }
@@ -31,6 +33,7 @@
         padding: 0;
         //vertical-align: top;
         display: inline-block;
+                float: right;
     }
     &__items{
         display: inline-block;
@@ -41,25 +44,25 @@
 .slide-container{
     align-items: center;
     width: 100%;
-    padding: 100px 7% 100px 9%;
+    padding: 100px 7% 100px 19%;
     &--first{
         align-items: center;
         width: 100%;
-        padding: 100px 7% 100px 15%;
+        padding: 100px 7% 100px 20%;
     }
     &--finaltitle{
         align-items: center;
         width: 100%;
         display: flex;
         justify-content: center;
-        padding: 100px 0 100px 0;
+        padding: 100px 0 0px 0;
     }
     &--benefits{
         align-items: center;
         width: 100%;
         display: flex;
         justify-content: center;
-        padding: 100px 0 100px 0;
+        padding: 0px 0 100px 0;
     }
 }
 
@@ -77,6 +80,7 @@
             margin-bottom: 0px;
         }
         &--smallbox{
+
             font-family: 'Oxygen-Bold', sans-serif;
             font-size: 48px;
             font-weight: 700;
@@ -116,10 +120,13 @@
 
 
 .img-container{
-    width: 750px;
+    width: 70%;
     &--bigfooter img{
         width: 100%;
     }    
+    &--bigbox img{
+        width: 100%;
+    }
 }
 
 .red-btn {
